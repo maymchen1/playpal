@@ -6,4 +6,48 @@ PlayPal is an app designed to allow gamers to connect with other gamers around t
 The app is designed as a safer and more reliable way for gamers to find and connect with one another.
 
 The app will feature an account creation option which will send confirmation emails after an account is created. Players will also be able to create postings where they look for a certain number of other gamers for a specific game. 
+
+You must meet the following Phase 5 Project Minimum Requirements:
+
+Include a many to many relationship.
+
+
+Implement a minimum of 4 models.
+Player Profile 
+    id PK
+    username
+    email
+    password
+Friends
+    id PK
+    player_profile_id FK
+    invite_status
+Player Games
+    player_profile_id FK
+    game_posting_id FK
+Game Posting 
+    id PK
+    title
+Description 
+    id PK
+    game_posting_id FK
+    player_limit
+    genre
+    description_text
+    description_title
+
+
+
+
+
+
+Implement a minimum of 5 client side routes using React router.
+Implement password protection and authentication.
+Include full CRUD on at least 1 model, following REST conventions.
+Implement validations and error handling.
+Implement something new not taught in the curriculum. (Check in with your instructor to ensure the scope of your idea is appropriate.)
+Implement useContext or Redux.
+Fully deploy and host your project.
+** Please discuss with your instructor if you have any issues aligning these requirements with your project.
+
 * ...
