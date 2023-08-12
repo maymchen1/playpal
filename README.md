@@ -13,6 +13,7 @@ Include a many to many relationship.
 
 
 Implement a minimum of 4 models.
+
 Player Profile 
     id PK
     username
@@ -36,18 +37,20 @@ Description
     description_text
     description_title
 
-
-
-
-
-
 Implement a minimum of 5 client side routes using React router.
 Implement password protection and authentication.
-Include full CRUD on at least 1 model, following REST conventions.
+Include full CRUD on at least 1 model, following REST conventions. 
+
+Player Profile 
+Game Posting 
+
 Implement validations and error handling.
 Implement something new not taught in the curriculum. (Check in with your instructor to ensure the scope of your idea is appropriate.)
+
+Email Confirmation 
+
 Implement useContext or Redux.
-Fully deploy and host your project.
-** Please discuss with your instructor if you have any issues aligning these requirements with your project.
+
+useContext
 
 * ...
