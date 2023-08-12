@@ -7,7 +7,7 @@ The app is designed as a safer and more reliable way for gamers to find and conn
 
 The app will feature an account creation option which will send confirmation emails after an account is created. Players will also be able to create postings where they look for a certain number of other gamers for a specific game. 
 
-You must meet the following Phase 5 Project Minimum Requirements:
+PlayPal meets the following Phase 5 Project Minimum Requirements:
 
 Include a many to many relationship.
 
