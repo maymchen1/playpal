@@ -11,6 +11,7 @@ You must meet the following Phase 5 Project Minimum Requirements:
 
 Include a many to many relationship.
 
+Between Player Profile and Game Posting 
 
 Implement a minimum of 4 models.
 
